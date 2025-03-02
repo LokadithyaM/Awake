@@ -19,4 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## The reference of how this nextjs app looks like you can see it at link below
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://www.youtube.com/watch?v=pqpSk4MElFo) from the creators of Next.js.
+[Vercel Platform](https://www.youtube.com/watch?v=pqpSk4MElFo) from the creators of Next.js.
+
+![image](https://github.com/user-attachments/assets/8b454855-78d1-418c-a444-7f62829c13e0)
+
