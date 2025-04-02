@@ -29,8 +29,7 @@ Awake is a minimalistic goal-tracking platform designed to enhance productivity 
 
 ## Tech Stack
 
-- **Frontend:** Next.js (TypeScript)
-- **Backend:** Node.js
+- **Framework:** Next.js (TypeScript)
 - **Database:** MongoDB
 - **Authentication:** Custom Next.js authentication with Iron Session
 - **State Management:** Currently using polling (WebSockets/SWR planned for future updates)
