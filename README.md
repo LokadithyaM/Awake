@@ -1,40 +1,40 @@
 # Awake
 
-**note deployment history**
-Git history is missing due to the the force merege, but you can check my deployment logs on Vercel to see that I built this from scratch.
+## Deployment History
 
-![image](https://github.com/user-attachments/assets/436d1bc9-6949-4db5-9517-fb6c705af2c9)
-
-![image](https://github.com/user-attachments/assets/1e45a325-88bc-4caf-b026-1e050eadf38e)
-
-![image](https://github.com/user-attachments/assets/c98f73c2-825d-42b8-b1e1-bd524a727f01)
+Due to a force merge, Git history is missing. However, you can verify the deployment logs on Vercel to confirm that this project was built from scratch.
 
 
 
-**A minimalistic goal-tracking platform with personalized insights powered by gemini and a personal mail space that is built for your productivity.**
+![image]\([https://github.com/user-attachments/assets/436d1bc9-6949-4db5-9517-fb6c705af2c9](https://github.com/user-attachments/assets/436d1bc9-6949-4db5-9517-fb6c705af2c9))
 
-[Product demo]\(https\://www\.youtube.com/watch?v=pqpSk4MElFo)
-[vercel_hosted]\(https://simple-nextjs-app-green.vercel.app/)
+![image]\([https://github.com/user-attachments/assets/1e45a325-88bc-4caf-b026-1e050eadf38e](https://github.com/user-attachments/assets/1e45a325-88bc-4caf-b026-1e050eadf38e))
 
-## Overview
+![image]\([https://github.com/user-attachments/assets/c98f73c2-825d-42b8-b1e1-bd524a727f01](https://github.com/user-attachments/assets/c98f73c2-825d-42b8-b1e1-bd524a727f01))
 
-Awake is a focused productivity tool designed to help users track their goals efficiently while receiving personalized insights. It also enables seamless communication with mentors via a WhatsApp-like interface. The platform leverages shared memory creation and dynamic refresh for an intuitive and real-time experience.
+## About Awake
+
+Awake is a minimalistic goal-tracking platform designed to enhance productivity with AI-driven insights and seamless communication. It features real-time goal tracking, personalized analytics, and a WhatsApp-like messaging system for mentorship and collaboration.
+
+[Product Demo](https://www.youtube.com/watch?v=pqpSk4MElFo)\
+[Live Application](https://simple-nextjs-app-green.vercel.app/)
 
 ## Features
 
-- **Goal Tracking**: Set, track, and refine personal goals.
-- **Personalized Insights**: AI-driven analytics tailored to user progress.
-- **Mentor Communication**: WhatsApp-like chat interface for real-time discussions.
-- **Shared Memory Creation**: Persistent user context for meaningful interactions.
+- **Goal Tracking** – Set, track, and refine personal objectives.
+- **Personalized Insights** – AI-powered analytics tailored to user progress.
+- **Real-Time Mentor Communication** – WhatsApp-like chat interface for productive discussions.
+- **Integrated Mail Space** – Streamlined communication for better focus.
+- **Persistent Context** – Shared memory creation for enhanced user interactions.
 
 ## Tech Stack
 
-- **Frontend**: Next.js (TypeScript)
-- **Backend**: Node.js
-- **Database**: MongoDB
-- **Authentication**: Custom Next.js auth, Iron Session
-- **State Management**: currently using polling.
-- **Deployment**: Vercel
+- **Frontend:** Next.js (TypeScript)
+- **Backend:** Node.js
+- **Database:** MongoDB
+- **Authentication:** Custom Next.js authentication with Iron Session
+- **State Management:** Currently using polling (WebSockets/SWR planned for future updates)
+- **Deployment:** Vercel
 
 ## Installation
 
@@ -42,8 +42,8 @@ Awake is a focused productivity tool designed to help users track their goals ef
 
 Ensure you have the following installed:
 
-- Node.js (latest LTS)
-- MongoDB
+- Node.js (latest LTS version)
+- MongoDB (local or cloud instance)
 
 ### Setup
 
@@ -58,7 +58,7 @@ Ensure you have the following installed:
    ```
 3. Set up environment variables:
    Create a `.env.local` file and configure the following:
-   ```env
+   ```sh
    MONGODB_URI=your_mongo_connection_string
    NEXTAUTH_SECRET=your_secret_key
    ```
@@ -70,30 +70,38 @@ Ensure you have the following installed:
 
 ## Usage
 
-- **Set Goals**: Define and monitor progress toward your objectives.
-- **Receive Insights**: AI-powered suggestions based on your activity.
-- **Chat with Mentors**: Real-time messaging for guidance and feedback.
-- **Stay Synced**: Automatic session-based state updates.
+- **Set Goals:** Define and monitor progress toward objectives.
+- **Receive AI Insights:** Get personalized suggestions based on activity.
+- **Chat with Mentors:** Engage in real-time conversations for guidance.
+- **Stay Synced:** Automatic session-based state updates ensure continuity.
 
 ## Roadmap
 
--
+- **Implement WebSockets for real-time updates**
+- **Expand AI insights with deeper analytics**
+- **Introduce task collaboration features**
+- **Enhance UI for better usability**
 
 ## Contribution
 
 Contributions are welcome! Follow these steps:
 
 1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add feature XYZ'`
-4. Push the branch: `git push origin feature-name`
+2. Create a new branch:
+   ```sh
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```sh
+   git commit -m 'Add feature XYZ'
+   ```
+4. Push the branch:
+   ```sh
+   git push origin feature-name
+   ```
 5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
-*Empowering users to achieve goals with clarity, insights, and real-time mentorship.*
+**Empowering users to achieve their goals with clarity, insights, and real-time mentorship.**
 
