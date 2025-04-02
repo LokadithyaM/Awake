@@ -1,8 +1,20 @@
 # Awake
 
+**note deployment history**
+Git history is missing due to the the force merege, but you can check my deployment logs on Vercel to see that I built this from scratch.
+
+![image](https://github.com/user-attachments/assets/436d1bc9-6949-4db5-9517-fb6c705af2c9)
+
+![image](https://github.com/user-attachments/assets/1e45a325-88bc-4caf-b026-1e050eadf38e)
+
+![image](https://github.com/user-attachments/assets/c98f73c2-825d-42b8-b1e1-bd524a727f01)
+
+
+
 **A minimalistic goal-tracking platform with personalized insights powered by gemini and a personal mail space that is built for your productivity.**
 
 [Product demo]\(https\://www\.youtube.com/watch?v=pqpSk4MElFo)
+[vercel_hosted]\(https://simple-nextjs-app-green.vercel.app/)
 
 ## Overview
 
